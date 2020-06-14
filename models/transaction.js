@@ -7,11 +7,11 @@ const transactionSchema = new Schema(
     name: {
       type: String,
       trim: true,
-      required: "Enter a name for transaction"
+      required: "Please input transaction name."
     },
     value: {
       type: Number,
-      required: "Enter an amount"
+      required: "Please enter a valid amount."
     },
     date: {
       type: Date,
